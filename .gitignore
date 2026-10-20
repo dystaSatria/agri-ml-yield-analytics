@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data (raw and processed data are not versioned; see data/README.md)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Geospatial and model artifacts
+*.tif
+*.tiff
+*.shp
+*.pkl
+*.joblib
+*.h5
