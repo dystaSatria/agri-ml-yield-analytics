@@ -1,0 +1,7 @@
+dataset_id,name,provider,url,licence,format,coverage,spatial_resolution,temporal_resolution,access_status,role_in_project
+DS01,Sentinel-2 L2A multispectral imagery,Copernicus Programme (ESA),https://dataspace.copernicus.eu,Copernicus free and open licence,GeoTIFF / JP2,2015 onward,10-60 m,~5 days revisit,Account and API access to be confirmed in Week 3,NDVI and vegetation indices for yield model
+DS02,Daily meteorological data,NASA POWER,https://power.larc.nasa.gov,Open access (cite source),CSV / API,1981 onward (global),0.5 degree grid,Daily,Public API; no registration needed,Rainfall and temperature features
+DS03,Crop production statistics,Badan Pusat Statistik (BPS),https://www.bps.go.id,Open data (cite source),CSV / Excel,Annual by district,District,Annual,Download manually; check tables for target crop,Yield target labels
+DS04,Crop production statistics (global),FAOSTAT,https://www.fao.org/faostat,Open data,CSV,Annual by country,Country,Annual,Public bulk download,Cross-check of yield labels
+DS05,PlantVillage leaf image dataset,PlantVillage / Hughes and Salathe (2015),https://github.com/spMohanty/PlantVillage-Dataset,Open access (check repository licence),JPG,Lab-captured images,Image,Not applicable,Public download,Disease classification training
+DS06,Commodity price panels,Government food price portals,To be identified in Week 2,To be confirmed,CSV / API,To be confirmed,Market / province,Daily or weekly,Source selection pending,Price forecasting
